@@ -1,0 +1,179 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding:20px;
+    color:yellow;
+    font-family:lucida handwriting;
+    background:linear-gradient(360deg,aqua,rgb(241, 164, 21));
+
+ 
+}
+
+.card-container{
+    background:linear-gradient(360deg,#8df58d,aqua,rgb(241, 164, 21) );
+    padding:20px;
+
+}
+
+.card-row{
+    display: flex;
+    width:90%;
+    margin: auto;
+    flex-wrap: wrap;
+    border: 2px solid aqua;
+    justify-content: space-evenly;
+    padding:20px;
+   
+
+}
+
+.card-col{
+   padding:2px;
+}
+
+.card-cols{
+    display: flex;
+    width:100%;
+    border:2px solid red;
+  
+    
+}
+
+
+.card-col1{
+    height: 300px;
+    width:300px;
+    padding: 20px;
+   
+ 
+}
+
+.card-col2{
+   
+    padding-top:50px;
+    display: flex;
+    flex-direction:column;
+    font-size: 30px;
+    width:20%;
+    
+}
+
+video{
+    height: 100%;
+    width:100%;
+  
+   
+}
+
+i{
+   padding-bottom: 20px;
+   padding-left: 20px;
+}
+
+
+.card-para{
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+   
+    
+
+}
+
+.card-head{
+    display: flex;
+    padding:20px 0px 20px 50px;
+
+}
+
+.card-img{
+    width:50px;
+    height: 50px;
+    border: 4px solid yellow;
+    border-radius: 50px;
+   
+}
+
+.card-img:hover{
+    transition-duration: 2s;
+    transform: scale(1.5);
+    overflow: hidden;
+}
+    
+
+img{
+    width:100%;
+}
+
+.card-idname{
+    padding:15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(251, 246, 252);
+}
+
+.fa-heart, .fa-comment, .fa-download{
+    color:black;
+    opacity: 0.5;
+}
+
+.card-cols:hover{
+    transition-duration: 2s;
+    transform: translateY(-20px);
+    overflow: hidden;
+
+}
+
+.fa-whatsapp {
+    animation: apta 2s linear infinite;
+    color:green;
+    
+}
+
+@keyframes apta {
+    0%{
+        transform: scale(0.5);
+    }
+
+    25%{
+        transform: scale(0.8); 
+    }
+
+    75%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(0.7); 
+    }
+}
+    
+#akgts{
+    display:flex;
+    padding:20px;
+    justify-content: space-around;
+    background-color: orange;
+    border: 2px solid aqua;
+}
+
+ #a, #k, #t, #g, #s{
+    padding:10px;
+    background-color: aqua;
+    border-radius: 20px;
+    color:red;
+}
+
+#k:hover, #t:hover, #g:hover, #a:hover, #s:hover{
+    padding:10px;
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px aqua;
+    border: 2px solid rgb(1, 99, 99);
+    color:red;
+}
